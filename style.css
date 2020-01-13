@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.first-article{
+  background: linear-gradient(rgba(73, 68, 68, 0.6), rgba(73,68,68,0.6)), url(images/meeting.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.top-menu{
+    padding: 3rem 2rem 20rem 2rem;
+}
+
+.first-article h3{
+    float: left;
+}
+
+
+.first-article ul li{
+    float: right;
+    margin-right: 1rem;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.first-article ul li:hover{
+    cursor: pointer;
+    color: orangered;
+}
+
+.container-for-h1{
+    clear: both;
+    width: 40%;
+    margin: 10rem auto;
+}
+
+.container-for-h1 h1{
+    width: 70%;
+    float: left;
+    padding-right: 4rem;
+}
+
+.container-for-h1 i{
+    width: 20%;
+    text-align: right;
+    clear: both;
+}
+
+.container-for-h1 i:hover{
+    cursor: pointer;
+    color: orangered;
+}
+
+.section-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.first-article .main-section{
+    width: 20%;
+    height: 25rem;
+    margin-left: 4%;
+    padding-bottom: 10rem;
+    padding-right: 3rem;
+}
+
+.first-article .main-section:hover{
+    cursor: pointer;
+    border-bottom: 10px solid orangered;
+}
+
+.main-section i{
+    margin-bottom: 10rem;
+}
+
+.second-article{
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    position: relative;
+}
+
+.second-article section{
+    width: 33%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.second-article .citats-parag{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    text-align: right;
+    width: 70%;
+}
+
+.second-article span{
+    float: right;
+    width: 70%;
+}
+
+.second-article .two-parag{
+    margin-right: 3rem;
+}
+
+.second-article .two-parag > p{
+    padding-bottom: 3rem;
+}
+
+.second-article .two-parag .bold-parag{
+    padding-top: 3rem;
+    font-weight: bold;
+}
+
+.second-article .back-image{
+    clear: both;
+    background-image: url(images/programmers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.second-article .orange{
+    width: 30%;
+    height: 90%;
+    background: rgba(255, 165, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 10rem;
+
+}
+
+.third-article{
+    background: rgb(32, 30, 30);
+    color: white;
+}
+
+.third-article .third-article-h3{
+    width: 25%;
+    margin-left: 15rem;
+}
+
+.third-article-container{
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+
+.third-article .awesome-icon-section{
+    width: 45%;
+    margin-left: 5rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.third-article .awesome-icon-section div{
+    padding: 4rem;
+}
+
+.third-article .awesome-icon-section div i,
+.third-article .awesome-icon-section div span{
+    padding-right: 1rem;
+    color: rgb(155, 155, 155);
+}
+
+.third-article .awesome-icon-section > div > i{
+    padding: 1.5rem;
+    background: orange;
+    border-radius: 50%;
+    color: white;
+    margin-right: 1rem;
+}
+
+.third-article .awesome-icon-section .bold-span{
+    font-weight: bold;
+    color: white;
+}
+
+.fourth-article > div{
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+}
+
+.fourth-article > div > h3{
+    float: left;
+    width: 38%;
+    padding-left: 10rem;
+}
+
+.fourth-article > div p{
+    width: 80%;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.fourth-article .fourth-article-container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.fourth-article .fourth-article-container .human{
+    width: 21%;
+    margin-right: 4rem;
+    margin-bottom: 10rem;
+    box-shadow: 10px 10px 5px 0px rgba(128,109,128,1);
+    padding-bottom: 2rem;
+}
+
+.fourth-article .fourth-article-container .human:hover,
+.fourth-article .fourth-article-container .human:hover div {
+    cursor: pointer;
+    height: 30rem;
+}
+
+.fourth-article .fourth-article-container .human >div{
+    width: 100%;
+    height: 25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+}
+
+.fourth-article .fourth-article-container .human .sean{
+    background-image: url(images/pesho.png);   
+}
+
+.fourth-article .fourth-article-container .human .rodolfo{
+    background-image: url(images/pesho.png);
+}
+
+.fourth-article .fourth-article-container .human .nudlia{
+    background-image: url(images/pesho.png);
+}
+
+.fourth-article .fourth-article-container .human .kum{
+    background-image: url(images/pesho.png);
+}
+
+.fourth-article .fourth-article-container .human .morton{
+    background-image: url(images/pesho.png);
+}
+
+.fourth-article .fourth-article-container .human .john{
+    background-image: url(images/pesho.png);
+}
+
+.fourth-article .fourth-article-container .human h4{
+    margin: 2rem;
+}
+
+.fourth-article .fourth-article-container .human span{
+    color: brown;
+    margin-left: 2rem;
+}
+
+.fifth-article{
+    background: grey;
+    padding: 10rem;
+}
+
+.fifth-article .fifth-article-container{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid white;
+    padding: 5rem;
+    text-align: center;
+    color: white;
+    height: 26rem;
+}
+
+.fifth-article .fifth-article-container h1{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.fifth-article .fifth-article-container p{
+    width: 78%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.fifth-article .fifth-article-container input{
+    border: none;
+    background: grey;
+    border-bottom: 2px solid orangered;
+    margin-right: 4rem;
+    color: white;
+    outline: none;
+}
+
+.fifth-article .fifth-article-container ::placeholder{
+    color: white;
+}
+
+.fifth-article .fifth-article-container .button{
+    outline: none;
+    border-radius: 10px;
+    padding: 0.5rem 3rem;
+}
+
+.fifth-article .fifth-article-container .button:hover{
+    background: black;
+    color: white;
+    border: none;
+}
+
+footer{
+    background: rgb(15, 15, 15);
+    color: white;
+    padding: 1rem;
+}
+footer .right{
+    float: right;
+}
